@@ -3,6 +3,7 @@ apiVersion: v1
 kind: Deployment
 metadata:
   name: helloworld-deployment
+namespace: tommy
 spec:
   replicas: 2
   template:
