@@ -11,8 +11,8 @@ spec:
       app: helloworld
   spec:
     containers:
-    - name: k8s-demo
-      image: tommy/demo
+    - name: k8s-test
+      image: hello-world:latest
       ports:
       - name: nodejs-port
         containerPort: 3000
