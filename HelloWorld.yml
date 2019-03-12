@@ -12,7 +12,7 @@ spec:
   spec:
     containers:
     - name: k8s-test
-      image: hello-world:latest
+      image: gcr.io/google-samples/node-hello:1.0
       ports:
       - name: nodejs-port
         containerPort: 3000
